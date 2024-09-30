@@ -10,11 +10,22 @@ const BestSeller = () => {
     const [bestSeller, setBestSeller] = useState([]);
 
     useEffect (()=> {
+        // console.log(products)
         
-        const bestProduct = products.filter((item) => (item.bestseller));
-        setBestSeller(bestProduct.slice(0,5))
+        // const bestProduct = products.filter((item) => (item.bestseller));
+        // setBestSeller(bestProduct.slice(0,5))
+        // Log products to check if it's available
+        console.log('Products:', products);
+
+        // Ensure products is an array before filtering
+        if (products && Array.isArray(products)) {
+            const bestProduct = products.filter((item) => item.bestseller);
+            setBestSeller(bestProduct.slice(0, 5));
+        } else {
+            console.log('Products is not an array or undefined');
+        }
        
-    },[])
+    },[products])
 
     
 

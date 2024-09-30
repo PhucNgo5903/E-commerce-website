@@ -184,7 +184,7 @@ export const products = [
     {
         _id: "aaaah",
         name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        description: "  ",
         price: 140,
         image: [p_img8],
         category: "Men",
