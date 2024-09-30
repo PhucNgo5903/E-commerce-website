@@ -30,25 +30,29 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 - **Backend**: MongoDB, Express, React, Node (MERN stack)
 
 ## Screenshots
-Home page
+---
+### **Home Page**
+This is the main landing page where users can explore the featured and latest products available for sale.
 ![Home page](https://github.com/user-attachments/assets/d10f45e9-7e62-4f11-8c11-fd9568917b22)
 ![image](https://github.com/user-attachments/assets/f6b9de87-4492-4353-b78d-e2f5c0e4a6b3)
 ![image](https://github.com/user-attachments/assets/7bc4c242-b668-4c42-84dc-39d21244cc54)
 ![image](https://github.com/user-attachments/assets/15e943e4-58c7-42dc-bc97-042354b5c538)
 
+---
 
-
-
-Collection page
+### **Collection Page**
+On this page, users can search and filter products based on categories and subcategories.
 ![image](https://github.com/user-attachments/assets/c24fde57-c9e0-423f-984a-27472501c1c2)
 
+---
 
-Product page
+### **Product Page**
+Once a product is selected, users can view the product details, select sizes, and add it to their cart.
 ![image](https://github.com/user-attachments/assets/30047697-606d-4a87-ac9e-7acacdf3c099)
 ![image](https://github.com/user-attachments/assets/6f7ca09f-e5c5-4317-9b64-ef6241a4e6c3)
 ![image](https://github.com/user-attachments/assets/91be1ad1-1d0b-43bb-abff-7ab11f95e8ae)
 
-
+---
 
 
 
