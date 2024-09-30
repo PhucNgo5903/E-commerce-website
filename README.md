@@ -67,6 +67,23 @@ Once a product is selected, users can view the product details, select sizes, an
 ### **Orders Page**
 ![image](https://github.com/user-attachments/assets/4067f95d-6769-471e-8f2f-1c0c47752ff9)
 
+---
+
+### **About Page**
+![image](https://github.com/user-attachments/assets/bbe15b74-367a-40b3-84bd-8ccb49e822fd)
+![image](https://github.com/user-attachments/assets/e37873ae-9262-41d1-96dd-b8f5eca3e2a4)
+![image](https://github.com/user-attachments/assets/02c5c7fc-04e8-4ced-babe-101c415b5747)
+
+---
+
+### **Contact Page**
+![image](https://github.com/user-attachments/assets/f2c01761-0f86-4fc0-a444-5291462b6fc9)
+![image](https://github.com/user-attachments/assets/1261284d-ba29-423e-a2e0-05c85dc124da)
+
+
+
+
+
 
 
 
