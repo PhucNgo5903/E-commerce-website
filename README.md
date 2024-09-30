@@ -49,10 +49,26 @@ On this page, users can search and filter products based on categories and subca
 ### **Product Page**
 Once a product is selected, users can view the product details, select sizes, and add it to their cart.
 ![image](https://github.com/user-attachments/assets/30047697-606d-4a87-ac9e-7acacdf3c099)
-![image](https://github.com/user-attachments/assets/6f7ca09f-e5c5-4317-9b64-ef6241a4e6c3)
-![image](https://github.com/user-attachments/assets/91be1ad1-1d0b-43bb-abff-7ab11f95e8ae)
+![image](https://github.com/user-attachments/assets/07bde4ed-c233-47a4-b763-a81c5447ee02)
+![image](https://github.com/user-attachments/assets/9655e352-8363-485d-9900-738aa065c8a3)
 
 ---
+
+### **Cart Page**
+![image](https://github.com/user-attachments/assets/f890976c-93fb-4585-9693-5bfc45a86eca)
+
+---
+
+### **Place Order Page**
+![image](https://github.com/user-attachments/assets/c40c8e83-5035-4d31-a113-721d785294c3)
+
+---
+
+### **Orders Page**
+![image](https://github.com/user-attachments/assets/4067f95d-6769-471e-8f2f-1c0c47752ff9)
+
+
+
 
 
 
