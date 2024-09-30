@@ -32,6 +32,15 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 
 ## Screenshots of client interfaces
 ---
+### **Login Page**
+![image](https://github.com/user-attachments/assets/88641da9-2499-4688-8727-e4e82a6cc4a0)
+
+---
+
+### **Registration Page**
+![image](https://github.com/user-attachments/assets/9f46b348-d163-4989-90d3-db6633855441)
+
+---
 ### **Home Page**
 This is the main landing page where users can explore the featured and latest products available for sale.
 ![Home page](https://github.com/user-attachments/assets/d10f45e9-7e62-4f11-8c11-fd9568917b22)
@@ -88,6 +97,32 @@ Users can reach out for support or inquiries through this page.
 
 
 ## Screenshots of admin interfaces
+---
+
+### **Admin Login Page**
+This is the entry point for administrators to access the backend of the e-commerce platform. Admins must enter their credentials to log in and manage the store.
+![image](https://github.com/user-attachments/assets/1f23316b-9f52-4f1e-8baf-b4080198d3fc)
+
+---
+
+### **Add Items Page**
+On this page, admins can add new products to the inventory. They can input essential product details such as name, description, category, price, and upload images to keep the store updated with the latest offerings.
+![image](https://github.com/user-attachments/assets/5485b1e4-9d68-4df6-9f92-e10634151f85)
+
+---
+
+### **List Items Page**
+This page displays all the products currently available in the store. Admins can view, edit, or delete items as needed, allowing for effective inventory management.
+![image](https://github.com/user-attachments/assets/98e08098-a620-41ef-89d6-24b8da6ce01f)
+
+---
+
+### **Orders Page**
+Here, admins can manage customer orders, view order details, and update their statuses (e.g., shipped, delivered). This page is crucial for maintaining an efficient order fulfillment process.
+![image](https://github.com/user-attachments/assets/07dcc74b-8491-4e9b-a9a9-4846453c2669)
+
+
+
 
 
 
