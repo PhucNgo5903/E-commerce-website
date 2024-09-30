@@ -5,8 +5,6 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Screenshots](#screenshots)
 
 ## Features
@@ -31,4 +29,4 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 - **Frontend**: HTML, Tailwind CSS
 - **Backend**: MongoDB, Express, React, Node (MERN stack)
 
-## Installation
+## Screenshots
