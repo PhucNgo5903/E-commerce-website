@@ -5,8 +5,8 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Screenshots of client interfaces](#screenshots)
-- [Screenshots of admin interfaces](#screenshots)
+- [Screenshots of client interfaces](#screenshots-of-client-interfaces)
+- [Screenshots of admin interfaces](#screenshots-of-admin-interfaces)
   
 ## Features
 
@@ -56,21 +56,25 @@ Once a product is selected, users can view the product details, select sizes, an
 ---
 
 ### **Cart Page**
+Here, users can review the items they have selected before proceeding to checkout.
 ![image](https://github.com/user-attachments/assets/f890976c-93fb-4585-9693-5bfc45a86eca)
 
 ---
 
 ### **Place Order Page**
+This page allows users to enter their personal information to finalize their purchase.
 ![image](https://github.com/user-attachments/assets/c40c8e83-5035-4d31-a113-721d785294c3)
 
 ---
 
 ### **Orders Page**
+Users can track the status of their previous orders on this page.
 ![image](https://github.com/user-attachments/assets/4067f95d-6769-471e-8f2f-1c0c47752ff9)
 
 ---
 
 ### **About Page**
+This page provides information about the store, its mission, and values, allowing customers to understand the brand better.
 ![image](https://github.com/user-attachments/assets/bbe15b74-367a-40b3-84bd-8ccb49e822fd)
 ![image](https://github.com/user-attachments/assets/e37873ae-9262-41d1-96dd-b8f5eca3e2a4)
 ![image](https://github.com/user-attachments/assets/02c5c7fc-04e8-4ced-babe-101c415b5747)
@@ -78,6 +82,7 @@ Once a product is selected, users can view the product details, select sizes, an
 ---
 
 ### **Contact Page**
+Users can reach out for support or inquiries through this page.
 ![image](https://github.com/user-attachments/assets/f2c01761-0f86-4fc0-a444-5291462b6fc9)
 ![image](https://github.com/user-attachments/assets/1261284d-ba29-423e-a2e0-05c85dc124da)
 
