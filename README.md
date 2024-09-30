@@ -32,9 +32,10 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 ## Screenshots
 Home page
 ![Home page](https://github.com/user-attachments/assets/d10f45e9-7e62-4f11-8c11-fd9568917b22)
-![image](https://github.com/user-attachments/assets/6e284119-876e-4e15-9229-fa26f5224b78)
-![image](https://github.com/user-attachments/assets/c1a4170c-40fc-4d27-b830-dcfd524f69c4)
-![image](https://github.com/user-attachments/assets/88196066-7b18-429a-8702-fb26b487a0d7)
+![image](https://github.com/user-attachments/assets/f6b9de87-4492-4353-b78d-e2f5c0e4a6b3)
+![image](https://github.com/user-attachments/assets/7bc4c242-b668-4c42-84dc-39d21244cc54)
+![image](https://github.com/user-attachments/assets/15e943e4-58c7-42dc-bc97-042354b5c538)
+
 
 
 
