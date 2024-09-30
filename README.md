@@ -5,8 +5,9 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
-
+- [Screenshots of client interfaces](#screenshots)
+- [Screenshots of admin interfaces](#screenshots)
+  
 ## Features
 
 ### Client Interface
@@ -29,7 +30,7 @@ This is a fully functional e-commerce website for selling clothing, offering sep
 - **Frontend**: HTML, Tailwind CSS
 - **Backend**: MongoDB, Express, React, Node (MERN stack)
 
-## Screenshots
+## Screenshots of client interfaces
 ---
 ### **Home Page**
 This is the main landing page where users can explore the featured and latest products available for sale.
@@ -81,7 +82,7 @@ Once a product is selected, users can view the product details, select sizes, an
 ![image](https://github.com/user-attachments/assets/1261284d-ba29-423e-a2e0-05c85dc124da)
 
 
-
+## Screenshots of admin interfaces
 
 
 
