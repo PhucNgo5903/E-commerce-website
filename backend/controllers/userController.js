@@ -101,7 +101,22 @@ const adminLogin = async (req, res) => {
     }
 }
 
-export {loginUser, registerUser, adminLogin}
+// Route to get current logged-in user's profile
+const getProfile = async (req, res) => {
+    try {
+        const userId = req.body.userId
+        const user = await userModel.findById(userId).select('-password')
+        if (!user) {
+            return res.json({success: false, message: 'User not found'})
+        }
+        res.json({success: true, user})
+    } catch (error) {
+        console.log(error)
+        res.json({success:false, message: error.message})
+    }
+}
+
+export {loginUser, registerUser, adminLogin, getProfile}
 
 
 

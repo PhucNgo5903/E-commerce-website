@@ -5,6 +5,7 @@ import { assets } from '../assets/assets'
 import { useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import axios from 'axios'
+import { toast } from 'react-toastify';
 const PlaceOrder = () => {
 
   const [method, setMethod] = useState('cod');
@@ -115,6 +116,8 @@ const PlaceOrder = () => {
 
           <div className='mt-12'>
               <Title text1={'PAYMENT'} text2={'METHOD'}/>
+              <br/>
+              <Title text1={'ONLY COD AVAILABLE'} text12={''}/>
               {/* ------------------------Payment Method Selection--------------------------*/}
               <div className='flex gap-3 flex-col lg:flex-row'>
                   <div onClick={() => setMethod('stripe')} className='flex items-center gap-3 border p-2 px-3 cursor-pointer'>
