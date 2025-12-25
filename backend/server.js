@@ -19,10 +19,17 @@ connectCloudinary()
 // Middlewares
 app.use(express.json())
 
+const allowedOrigins = [
+  "http://localhost:5173", // Cho phép chạy local Admin
+  "http://localhost:5174", // Cho phép chạy local Frontend
+  "https://e-commerce-website-six-lac.vercel.app", // THÊM LINK VERCEL FRONTEND CỦA BẠN
+  "https://shop-admin.vercel.app"     // THÊM LINK VERCEL ADMIN CỦA BẠN
+];
+
 // app.use(cors())
 app.use(cors({
     // Cho phép cả Admin (5173) và Frontend (5174) gọi API
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: allowedOrigins,
     credentials: true
 }));
 
