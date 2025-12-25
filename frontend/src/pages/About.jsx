@@ -39,7 +39,7 @@ const About = () => {
 
       </div>
 
-      <NewsletterBox />
+      {/* <NewsletterBox /> */}
     </div>
   )
 }

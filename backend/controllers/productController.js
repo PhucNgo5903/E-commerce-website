@@ -100,3 +100,40 @@ const singleProduct = async (req, res) => {
 
 
 export {listProducts, addProduct, removeProduct, singleProduct}
+
+// Add a new size to product sizes array (admin only)
+const addProductSize = async (req, res) => {
+    try {
+        const { productId, size } = req.body
+        if (!productId || !size) {
+            return res.json({ success: false, message: 'Missing productId or size' })
+        }
+
+        // Use $addToSet to avoid duplicates
+        await productModel.findByIdAndUpdate(productId, { $addToSet: { sizes: size } })
+        const product = await productModel.findById(productId)
+        res.json({ success: true, message: 'Size added', product })
+    } catch (error) {
+        console.log(error)
+        res.json({ success: false, message: error.message })
+    }
+}
+
+// Remove a size from product sizes array (admin only)
+const removeProductSize = async (req, res) => {
+    try {
+        const { productId, size } = req.body
+        if (!productId || !size) {
+            return res.json({ success: false, message: 'Missing productId or size' })
+        }
+
+        await productModel.findByIdAndUpdate(productId, { $pull: { sizes: size } })
+        const product = await productModel.findById(productId)
+        res.json({ success: true, message: 'Size removed', product })
+    } catch (error) {
+        console.log(error)
+        res.json({ success: false, message: error.message })
+    }
+}
+
+export {addProductSize, removeProductSize}

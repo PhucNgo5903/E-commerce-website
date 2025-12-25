@@ -7,6 +7,7 @@ import userRouter from './routes/userRoute.js'
 import productRouter from './routes/productRoute.js'
 import cartRouter from './routes/cartRoute.js'
 import orderRouter from './routes/orderRoute.js'
+import reviewRouter from './routes/reviewRoute.js'
 
 
 // App Config
@@ -17,13 +18,20 @@ connectCloudinary()
 
 // Middlewares
 app.use(express.json())
-app.use(cors())
+
+// app.use(cors())
+app.use(cors({
+    // Cho phép cả Admin (5173) và Frontend (5174) gọi API
+    origin: ["http://localhost:5173", "http://localhost:5174"],
+    credentials: true
+}));
 
 // Api endpoint
 app.use('/api/user', userRouter)
 app.use('/api/product', productRouter)
 app.use('/api/cart', cartRouter)
 app.use('/api/order', orderRouter)
+app.use('/api/review', reviewRouter)
 
 app.get('/', (req, res)=>{
     res.send("API Working")

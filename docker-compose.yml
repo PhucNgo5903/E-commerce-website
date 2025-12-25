@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # --- BACKEND ---
+  backend:
+    build: ./backend
+    container_name: shop-backend
+    ports:
+      - "4000:4000"
+    # Load biến môi trường từ file .env
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app          # Map code để sửa code không cần build lại
+      - /app/node_modules       # Giữ node_modules riêng của container
+
+  # --- ADMIN (Port 5173) ---
+  admin:
+    build: ./admin
+    container_name: shop-admin
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:4000
+    depends_on:
+      - backend
+    volumes:
+      - ./admin:/app
+      - /app/node_modules
+
+  # --- FRONTEND (Port 5174 -> 5173) ---
+  frontend:
+    build: ./frontend
+    container_name: shop-frontend
+    ports:
+      - "5174:5173" # Map port 5174 máy thật vào 5173 container
+    environment:
+      - VITE_API_URL=http://localhost:4000
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules

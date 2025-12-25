@@ -151,6 +151,39 @@ const ShopContextProvider = (props) => {
         }
     }
 
+    const getReviews = async (productId) => {
+        try {
+            const response = await axios.post(backendUrl + '/api/review/get', { productId });
+            if (response.data.success) {
+                return response.data.reviews;
+            } else {
+                toast.error(response.data.message);
+                return [];
+            }
+        } catch (error) {
+            console.log(error);
+            toast.error(error.message);
+            return [];
+        }
+    };
+
+    const addReview = async (productId, rating, comment) => {
+        try {
+            const response = await axios.post(backendUrl + '/api/review/add', { productId, rating, comment }, { headers: { token } });
+            if (response.data.success) {
+                toast.success(response.data.message);
+                return true;
+            } else {
+                toast.error(response.data.message);
+                return false;
+            }
+        } catch (error) {
+            console.log(error);
+            toast.error(error.message);
+            return false;
+        }
+    };
+
     useEffect(()=>{
         getProductsData()
     },[])
@@ -170,7 +203,7 @@ const ShopContextProvider = (props) => {
         cartItems, addToCart, setCartItems,
         getCartCount, updateQuantity,
         getCartAmount, navigate, backendUrl,
-        setToken, token
+        setToken, token, getReviews, addReview
     }
 
     return (

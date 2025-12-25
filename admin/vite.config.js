@@ -4,5 +4,11 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server:{port :5173}
+  server:{
+    host: true,      // Cho phép truy cập từ bên ngoài container
+    port: 5173,      // Port cố định
+    watch: {
+      usePolling: true // Bắt buộc cho Docker trên Windows/WSL
+    }
+  }
 })
